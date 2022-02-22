@@ -4594,5 +4594,5 @@ function sections:configloader(props)
 	-- // metatable indexing + return
 	setmetatable(configloader, configloaders)
 	return configloader
-	return library
 end
+return library
